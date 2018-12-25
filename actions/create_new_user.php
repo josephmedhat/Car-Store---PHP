@@ -2,7 +2,7 @@
 /**
  * Created by PhpStorm.
  * User: bavlyadel
- * Date: 2018-12-25
+ * Date: 2018-12-25<<<<<<< bavly
  * Time: 07:27
  */
 
@@ -20,3 +20,4 @@ else
 
 
 ?>
+
