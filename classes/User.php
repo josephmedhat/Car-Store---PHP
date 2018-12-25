@@ -45,4 +45,23 @@ class User
             return false;
     }
 
+    public function login(){
+        $conn = new configration();
+
+        $sql = "SELECT * FROM users where email = '".$this->email."' AND password = '".$this->password."' limit 1";
+
+        $result=$conn->conn->query($sql);
+
+        if($result){
+            if ($result->num_rows==1){
+                return true;
+            }else{
+                return false;
+            }
+
+        }else{
+            return false;
+        }
+    }
+
 }
