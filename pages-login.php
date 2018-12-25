@@ -15,16 +15,16 @@
                         <h4 class="text-muted font-18 m-b-5 text-center">Welcome Back !</h4>
                         <p class="text-muted text-center">Sign in to continue to Fonik.</p>
 
-                        <form class="form-horizontal m-t-30" action="index.php">
+                        <form class="form-horizontal m-t-30" action="actions/login_user.php" method="post">
 
                             <div class="form-group">
-                                <label for="username">Username</label>
-                                <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                <label for="useremail">Email</label>
+                                <input type="text" class="form-control" id="useremail" placeholder="Enter email" name="useremail">
                             </div>
 
                             <div class="form-group">
                                 <label for="userpassword">Password</label>
-                                <input type="password" class="form-control" id="userpassword" placeholder="Enter password">
+                                <input type="password" class="form-control" id="userpassword" placeholder="Enter password" name="password">
                             </div>
 
                             <div class="form-group row m-t-20">
