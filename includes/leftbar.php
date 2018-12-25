@@ -40,6 +40,7 @@
                                     <li><a href="form-validation.php">Form Validation</a></li>
                                     <li><a href="form-summernote.php">Form Validation</a></li>
                                     <li><a href="new_car.php">Add car</a></li>
+                                    <li><a href="new_brand.php">Add Brand</a></li>
                                 </ul>
                             </li>
 
