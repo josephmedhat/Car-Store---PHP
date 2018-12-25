@@ -6,6 +6,8 @@
  * Time: 1:16 AM
  */
 require_once("../config.php");
+require_once("configration.php");
+
 
 class User
 {
@@ -37,7 +39,7 @@ class User
         $conn=new configration();
 
         $sql="INSERT INTO users (user_name, email, phone, password,is_admin) VALUES ('".$this->name."','".$this->email."', '".$this->phone."', '".$this->password."','".$this->is_admin."')";
-        if ($conn->query($sql))
+        if ($conn->conn->query($sql))
             return true;
         else
             return false;

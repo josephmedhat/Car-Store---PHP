@@ -14,21 +14,26 @@
                         <h4 class="text-muted font-18 m-b-5 text-center">Free Register</h4>
                         <p class="text-muted text-center">Get your free fonik account now.</p>
 
-                        <form class="form-horizontal m-t-30" action="index.php">
+                        <form class="form-horizontal m-t-30" action="actions/create_new_user.php" method="post">
 
                             <div class="form-group">
                                 <label for="useremail">Email</label>
-                                <input type="email" class="form-control" id="useremail" placeholder="Enter email">
+                                <input type="email" class="form-control" id="useremail" placeholder="Enter email" name="email">
                             </div>
 
                             <div class="form-group">
                                 <label for="username">Username</label>
-                                <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                <input type="text" class="form-control" id="username" placeholder="Enter username" name="username">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phonenumber">Phone Number</label>
+                                <input type="text" class="form-control" id="phonenumber" placeholder="Enter phone number" name="phone">
                             </div>
 
                             <div class="form-group">
                                 <label for="userpassword">Password</label>
-                                <input type="password" class="form-control" id="userpassword" placeholder="Enter password">
+                                <input type="password" class="form-control" id="userpassword" placeholder="Enter password" name="password">
                             </div>
 
                             <div class="form-group row m-t-20">
