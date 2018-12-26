@@ -41,6 +41,8 @@
                                     <li><a href="form-summernote.php">Form Validation</a></li>
                                     <li><a href="new_car.php">Add car</a></li>
                                     <li><a href="new_brand.php">Add Brand</a></li>
+                                    <li><a href="view_brand.php">View Brand</a></li>
+
                                 </ul>
                             </li>
 

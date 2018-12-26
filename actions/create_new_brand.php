@@ -7,13 +7,14 @@
  */
 
 require_once ("../classes/Brand.php");
-$brand = new Brand($_POST['brand']);
-if ($brand->save()){
-    header('Location: '.'../index.php');
+$brand = new Brand();
+if ($brand->create($_POST['brand'])){
+    header('Location: '.'../view_brand.php');
     die();
 }else{
     echo 'something wrong';
 }
+
 
 
 ?>
