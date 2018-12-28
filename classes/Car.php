@@ -5,15 +5,23 @@
  * Date: 12/25/2018
  * Time: 1:44 AM
  */
-require_once("../config.php");
 require_once("configration.php");
+require_once("Brand.php");
 
 class Car
 {
     private $model;
     private  $des;
     private  $img_path;
-    private  $brand_id;
+    public  $brand_id;
+    public  $cars;
+
+    /**
+     * Car constructor.
+     */
+    public function __construct()
+    {
+    }
 
     /**
      * Car constructor.
@@ -22,7 +30,9 @@ class Car
      * @param $img_path
      * @param $brand_id
      */
-    public function __construct($model, $des, $img_path, $brand_id)
+
+
+    public function create($model, $des, $img_path, $brand_id)
     {
         $this->model = $model;
         $this->des = $des;
@@ -36,6 +46,21 @@ class Car
             return true;
         else
             return false;
+    }
+
+    public function read(){
+        $conn = new configration();
+        $sql = "SELECT * FROM cars";
+        $this->cars=$conn->conn->query($sql);
+
+    }
+
+    public function getBrand($brandID){
+        $conn = new configration();
+        $sql="SELECT * FROM brand WHERE id =".$brandID;
+        $brandName = $conn->conn->query($sql);
+        return $brandName;
+
     }
 
 

@@ -26,7 +26,8 @@
                     <!-- ==================
                          PAGE CONTENT START
                          ================== -->
-
+<?php
+echo "Welcom". $_SESSION['name'];?>
                     <div class="page-content-wrapper">
 
 

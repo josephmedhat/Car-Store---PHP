@@ -45,6 +45,14 @@ class User
             return false;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
     public function login(){
         $conn = new configration();
 
@@ -54,6 +62,7 @@ class User
 
         if($result){
             if ($result->num_rows==1){
+
                 return true;
             }else{
                 return false;
