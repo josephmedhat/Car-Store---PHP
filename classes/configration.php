@@ -21,6 +21,7 @@ public $conn;
      * configration constructor.
      * @param mysqli $conn
      */
+
     public function __construct()
     {
         $this->conn = mysqli_connect($this ->servername, $this->username, $this->password, $this ->database);

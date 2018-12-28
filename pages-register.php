@@ -31,10 +31,6 @@
                                 <input type="text" class="form-control" id="phonenumber" placeholder="Enter phone number" name="phone">
                             </div>
 
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="text" class="form-control" id="phone" placeholder="Enter phone number">
-                            </div>
 
                             <div class="form-group">
                                 <label for="userpassword">Password</label>

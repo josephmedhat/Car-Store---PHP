@@ -29,6 +29,7 @@
                                     <li><a href="ui-buttons.php">Buttons</a></li>
                                     <li><a href="ui-carousel.php">Carousel</a></li>
                                     <li><a href="ui-sweet-alert.php">Sweet-Alert</a></li>
+                                    <li><a href="ui-images.php">all Posts</a></li>
                                 </ul>
                             </li>
 
@@ -36,9 +37,6 @@
                             <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-blog"></i><span> Forms </span></a>
                                 <ul class="list-unstyled">
-                                    <li><a href="form-elements.php">Form Elements</a></li>
-                                    <li><a href="form-validation.php">Form Validation</a></li>
-                                    <li><a href="form-summernote.php">Form Validation</a></li>
                                     <li><a href="new_car.php">Add car</a></li>
                                     <li><a href="new_brand.php">Add Brand</a></li>
                                     <li><a href="view_brand.php">View Brand</a></li>
