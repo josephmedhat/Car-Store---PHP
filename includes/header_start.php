@@ -12,4 +12,4 @@
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
         <!-- App title -->
-        <title>Fonik - Responsive Bootstrap 4 Admin Dashboard</title>
+        <title>Cars</title>

@@ -2,7 +2,7 @@
     <link href="assets/plugins/summernote/summernote.css" rel="stylesheet" />
 
 <?php include_once('includes/header_end.php'); ?>
-
+<?php require_once ('classes/Brand.php')?>
                             <!-- Page title -->
                             <ul class="list-inline menu-left mb-0">
                                 <li class="list-inline-item">
@@ -33,23 +33,29 @@
                                 <div class="col-12">
                                     <div class="card m-b-20">
                                         <div class="card-body">
-                                            <form action="actions/create_new_car.php" method="post">
+                                            <form action="actions/create_new_car.php" method="post" enctype="multipart/form-data">
                                             <div class="form-group row">
                                                 <label  class="col-sm-2 col-form-label">Car Model</label>
                                                 <div class="col-sm-10">
-                                                    <input class="form-control" type="text" id="example-text-input" name="model">
+                                                    <input class="form-control" type="text" id="example-text-input" name="model" required>
                                                 </div>
                                             </div>
+                                                <div class="form-group row">
+                                                    <label  class="col-sm-2 col-form-label">Price</label>
+                                                    <div class="col-sm-10">
+                                                        <input class="form-control" type="text" id="example-text-input" name="price" required>
+                                                    </div>
+                                                </div>
                                             <div class="form-group row">
                                                 <label  class="col-sm-2 col-form-label">Image</label>
                                                 <div class="col-sm-10">
-                                                    <input class="form-control" type="file" value="Artisanal kale" id="example-text-input" name="image">
+                                                    <input class="form-control" type="file" value="Artisanal kale" required id="example-text-input" name="file">
                                                 </div>
                                             </div>
                                             <div class="form-group row">
                                                 <label  class="col-sm-2 col-form-label">Description</label>
                                                 <div class="col-sm-10">
-                                                    <textarea class="summernote form-control" name="desc"></textarea>
+                                                    <textarea class="summernote form-control" required name="desc"></textarea>
                                                 </div>
                                             </div>
 
@@ -57,9 +63,9 @@
                                                 <label class="col-sm-2 col-form-label">Brand</label>
                                                 <div class="col-sm-10">
                                                     <select class="form-control" name="brand">
-                                                        <option>Select</option>
-                                                        <option>Large select</option>
-                                                        <option>Small select</option>
+                                                        <?php $b = new Brand(); $b->read(); while ($row = mysqli_fetch_array($b->brands)){ ?>
+                                                        <option value="<?php echo $row['id'];?>"><?php echo $row['name'];?></option>
+                                                        <?php } ?>
                                                     </select>
                                                 </div>
                                             </div>

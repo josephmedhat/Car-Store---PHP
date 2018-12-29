@@ -6,24 +6,20 @@
             <div class="card">
                 <div class="card-body">
 
-                    <h3 class="text-center m-0">
-                        <a href="index.php" class="logo logo-admin"><img src="assets/images/logo_dark.png" height="30" alt="logo"></a>
-                    </h3>
 
                     <div class="p-3">
                         <h4 class="text-muted font-18 m-b-5 text-center">Free Register</h4>
-                        <p class="text-muted text-center">Get your free fonik account now.</p>
+                        <p class="text-muted text-center">Get your free account now.</p>
 
                         <form class="form-horizontal m-t-30" action="actions/create_new_user.php" method="post">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" id="username" placeholder="Enter username" name="username">
+                            </div>
 
                             <div class="form-group">
                                 <label for="useremail">Email</label>
                                 <input type="email" class="form-control" id="useremail" placeholder="Enter email" name="email">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="username">Username</label>
-                                <input type="text" class="form-control" id="username" placeholder="Enter username" name="username">
                             </div>
 
                             <div class="form-group">
@@ -43,10 +39,6 @@
                                 </div>
                             </div>
 
-                            <div class="form-group m-t-10 mb-0 row">
-                                <div class="col-12 m-t-20">
-                                    <p class="font-14 text-muted mb-0">By registering you agree to the Fonik <a href="#">Terms of Use</a></p>
-                                </div>
                             </div>
                         </form>
                     </div>
@@ -56,7 +48,6 @@
 
             <div class="m-t-40 text-center">
                 <p>Already have an account ? <a href="pages-login.php" class="font-500 font-14 text-primary font-secondary"> Login </a> </p>
-                <p>© 2018 Fonik. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
             </div>
         </div>
 

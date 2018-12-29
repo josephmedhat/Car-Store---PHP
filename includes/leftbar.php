@@ -11,7 +11,7 @@
                 <div class="topbar-left">
                     <div class="">
                         <!--<a href="index.php" class="logo text-center">Fonik</a>-->
-                        <a href="index.php" class="logo"><img src="assets/images/logo.png" height="100" width="100" alt="logo"></a>
+                        <a href="index.php" class="logo"><img src="assets/images/race-car-309123_960_720.png" height="150" width="150" alt="logo"></a>
                     </div>
                 </div>
 
@@ -24,34 +24,28 @@
                             </li>
 
                             <li class="has_sub">
-                                <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-suitcase"></i><span> User Interface <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
-                                <ul class="list-unstyled">
-                                    <li><a href="ui-buttons.php">Buttons</a></li>
-                                    <li><a href="ui-carousel.php">Carousel</a></li>
-                                    <li><a href="ui-sweet-alert.php">Sweet-Alert</a></li>
-                                    <li><a href="ui-images.php">all Posts</a></li>
-                                </ul>
-                            </li>
-
-
-                            <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-blog"></i><span> Forms </span></a>
                                 <ul class="list-unstyled">
+                                    <li><a href="ui-images.php">Cars</a></li>
+                                    <?php
+                                    if (isset($_SESSION['is_admin']) && $_SESSION['is_admin']==1)
+                                    {?>
                                     <li><a href="new_car.php">Add car</a></li>
                                     <li><a href="view_brand.php">View Brand</a></li>
-
+                                    <?php }?>
                                 </ul>
                             </li>
-
+                        <?php
+                            if (!isset($_SESSION['user_name']))
+                            {?>
                             <li class="has_sub">
-                                <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-copy"></i><span> Pages <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                                <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-copy"></i><span> Registration <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                                 <ul class="list-unstyled">
                                     <li><a href="pages-login.php">Login</a></li>
                                     <li><a href="pages-register.php">Register</a></li>
-                                    <li><a href="pages-recoverpw.php">Recover Password</a></li>
                                 </ul>
                             </li>
-
+                        <?php }?>
                         </ul>
                     </div>
                     <div class="clearfix"></div>

@@ -79,8 +79,6 @@ class Brand
         $conn = new configration();
         $sql = "SELECT * FROM brand";
         $this->brands=$conn->conn->query($sql);
-
-
     }
     public function read_by_id($id){
         $this->id=$id;
@@ -90,6 +88,13 @@ class Brand
         $fetch=mysqli_fetch_array($query);
         $this->name=$fetch['name'];
 
+    }
+
+    public static function numOfrows(){
+        $conn = new configration();
+        $sql="SELECT * FROM brand";
+        $result=$conn->conn->query($sql);
+        return mysqli_num_rows($result);
     }
 
     public function update(){

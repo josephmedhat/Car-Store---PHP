@@ -1,11 +1,11 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: jo
  * Date: 12/25/2018
  * Time: 1:16 AM
  */
-require_once("../config.php");
 require_once("configration.php");
 
 
@@ -53,15 +53,27 @@ class User
         return $this->name;
     }
 
+
+    public static function numOfrows(){
+        $conn = new configration();
+        $sql="SELECT * FROM users";
+        $result=$conn->conn->query($sql);
+        return mysqli_num_rows($result);
+    }
+
     public function login(){
         $conn = new configration();
 
         $sql = "SELECT * FROM users where email = '".$this->email."' AND password = '".$this->password."' limit 1";
 
         $result=$conn->conn->query($sql);
-
+        $fetch=mysqli_fetch_array($result);
         if($result){
             if ($result->num_rows==1){
+                session_start();
+
+                $_SESSION["user_name"] = $fetch['user_name'];
+                $_SESSION["is_admin"] = $fetch['is_admin'];
 
                 return true;
             }else{

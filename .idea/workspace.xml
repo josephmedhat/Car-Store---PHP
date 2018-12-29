@@ -2,80 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9051889f-c7a9-46ec-a552-1412f4c69e31" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/create_new_brand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/create_new_user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/login_user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/viewBrand.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/din.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/din.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/din.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/din.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/AjaxLoader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/grabbing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/owl.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/slitslider/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/slitslider/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/slitslider/js/jquery.ba-cond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/slitslider/js/jquery.slitslider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/slitslider/js/modernizr.custom.79639.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/advertisements.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/agents/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/agents/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/agents/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/agents/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bginside.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bgmain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/properties/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/properties/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/properties/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/properties/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/properties/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-carousel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-images.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view_brand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/logout_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/1_CarCovers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/1a_mclaren_p11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/8198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Car-Cover2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Cars, Cover, Pics, Timeline, Modified, Car, Fb, Cover, Racing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dwburnett-demon-garlits-1352-1517591562.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/race-car-309123_960_720.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readmore.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions/create_new_car.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/create_new_car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/sweet-alert2/sweetalert2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/sweet-alert2/sweetalert2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/create_new_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/create_new_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Brand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/configration.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/configration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header_start.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header_start.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/leftbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/leftbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/topbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/topbar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_car.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages-recoverpw.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages-register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-images.php" beforeDir="false" afterPath="$PROJECT_DIR$/ui-images.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,37 +40,33 @@
       <file leaf-file-name="leftbar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/leftbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="41" column="132" selection-start-line="41" selection-start-column="132" selection-end-line="41" selection-end-column="132" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_car.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_car.php">
+      <file leaf-file-name="pages-register.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages-register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="61" column="85" selection-start-line="59" selection-start-column="55" selection-end-line="61" selection-end-column="85" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui-sweet-alert.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-sweet-alert.php">
+      <file leaf-file-name="header_start.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/header_start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+            <state relative-caret-position="238">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Brand.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes/Brand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
-            </state>
-          </provider>
+      <file leaf-file-name="header_end.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/header_end.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -134,6 +81,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>icons</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,16 +92,24 @@
       <list>
         <option value="$PROJECT_DIR$/includes/footer_start.php" />
         <option value="$PROJECT_DIR$/ui-carousel.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/includes/leftbar.php" />
         <option value="$PROJECT_DIR$/form-summernote.php" />
         <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/classes/configration.php" />
         <option value="$PROJECT_DIR$/classes/Brand.php" />
         <option value="$PROJECT_DIR$/new_car.php" />
-        <option value="$PROJECT_DIR$/classes/configration.php" />
-        <option value="$PROJECT_DIR$/actions/create_new_car.php" />
-        <option value="$PROJECT_DIR$/classes/User.php" />
+        <option value="$PROJECT_DIR$/readmore.php" />
         <option value="$PROJECT_DIR$/classes/Car.php" />
+        <option value="$PROJECT_DIR$/actions/create_new_car.php" />
+        <option value="$PROJECT_DIR$/actions/create_new_user.php" />
+        <option value="$PROJECT_DIR$/pages-login.php" />
+        <option value="$PROJECT_DIR$/classes/User.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/actions/logout_user.php" />
+        <option value="$PROJECT_DIR$/ui-images.php" />
+        <option value="$PROJECT_DIR$/includes/topbar.php" />
+        <option value="$PROJECT_DIR$/includes/leftbar.php" />
+        <option value="$PROJECT_DIR$/includes/header_start.php" />
+        <option value="$PROJECT_DIR$/pages-register.php" />
       </list>
     </option>
   </component>
@@ -192,7 +148,12 @@
             <path>
               <item name="Vertical" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vertical" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vertical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vertical" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,14 +164,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../femknak" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp1\htdocs\Vertical" />
+      <recent name="C:\xampp1\htdocs\Vertical\actions" />
       <recent name="C:\xampp1\htdocs\Vertical\assets\images" />
+      <recent name="C:\xampp1\htdocs\Vertical" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,47 +198,35 @@
       <option name="presentableId" value="Default" />
       <updated>1545685152874</updated>
       <workItem from="1545685154612" duration="11494000" />
+      <workItem from="1546096202659" duration="11063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11842000" />
+    <option name="totallyTimeSpent" value="34893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.37128714" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50378215" side_tool="true" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49621785" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.37042925" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,57 +236,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/Car.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="33" selection-start-line="32" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" selection-start-line="1" selection-start-column="1" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer_account.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer_end.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-alerts.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer_start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-carousel.php" />
-    <entry file="file://$PROJECT_DIR$/assets/images/small/img-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/form-elements.php" />
     <entry file="file://$PROJECT_DIR$/form-summernote.php" />
     <entry file="file://$PROJECT_DIR$/config.php">
@@ -374,13 +273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-images.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Car.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -392,20 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/create_new_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages-register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -423,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-sweet-alert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/plugins/sweet-alert2/sweetalert2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
@@ -444,27 +315,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/create_new_brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="130" column="49" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view_brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="130" column="49" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/new_brand.php" />
     <entry file="file://$PROJECT_DIR$/includes/leftbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -491,23 +342,8 @@
     <entry file="file://$PROJECT_DIR$/ui-alerts.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer_start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-carousel.php" />
     <entry file="file://$PROJECT_DIR$/assets/images/small/img-1.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/form-elements.php" />
     <entry file="file://$PROJECT_DIR$/form-summernote.php" />
@@ -525,45 +361,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_car.php">
+    <entry file="file://$PROJECT_DIR$/ui-sweet-alert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="61" column="85" selection-start-line="59" selection-start-column="55" selection-end-line="61" selection-end-column="85" />
+        <state relative-caret-position="183">
+          <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/create_new_car.php">
+    <entry file="file://$PROJECT_DIR$/actions/upload">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/upload/1a_mclaren_p11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readmore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="-153">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Car.php">
+    <entry file="file://$PROJECT_DIR$/view_brand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-end-line="33" />
+        <state relative-caret-position="289">
+          <caret line="98" column="97" selection-start-line="98" selection-start-column="61" selection-end-line="98" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/User.php">
+    <entry file="file://$PROJECT_DIR$/actions/create_new_brand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/leftbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="459">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/Brand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+        <state relative-caret-position="365">
+          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-carousel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="88" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/create_new_car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/race-car-309123_960_720.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header_account.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer_start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/logout_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="69" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/topbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/create_new_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/login_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="88" column="24" lean-forward="true" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/leftbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="41" column="132" selection-start-line="41" selection-start-column="132" selection-end-line="41" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header_end.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header_start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages-register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

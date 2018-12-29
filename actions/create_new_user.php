@@ -11,7 +11,7 @@ require_once ("../classes/User.php");
 $user = new User($_POST['username'],md5($_POST['password']),$_POST['email'],$_POST['phone'],0);
 
 if ($user->save()){
-    header('Location: '.'../index.php');
+    header('Location: '.'../pages-login.php');
     die();
 }
 else
