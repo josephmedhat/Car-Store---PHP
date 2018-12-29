@@ -38,7 +38,6 @@
                                 <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-blog"></i><span> Forms </span></a>
                                 <ul class="list-unstyled">
                                     <li><a href="new_car.php">Add car</a></li>
-                                    <li><a href="new_brand.php">Add Brand</a></li>
                                     <li><a href="view_brand.php">View Brand</a></li>
 
                                 </ul>

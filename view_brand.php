@@ -1,6 +1,16 @@
 <?php include_once('includes/header_start.php'); ?>
 <?php require_once ("classes/Brand.php"); ?>
+<?php require_once ("classes/configration.php");?>
 
+<?php $brand= new Brand();
+
+
+if(isset($_GET['edit'])){
+    $brand::$edit_state=true;
+    $brand->read_by_id($_GET['edit']);
+}
+
+?>
     <link href="assets/plugins/summernote/summernote.css" rel="stylesheet" />
     <link href="assets/css/viewBrand.css" rel="stylesheet" />
 
@@ -35,18 +45,23 @@
 
             <div class="card m-b-20">
                 <div class="card-body">
-                    <form  method="post" >
+                    <form  method="post"  action="actions/create_new_brand.php">
                         <table >
                             <tr>
                                 <td>
+                                    <input type="hidden" name="id" value="<?php echo $brand->getId(); ?>">
                                     <label>Brand</label>
                                 </td>
 
                                 <td class="col-sm-10">
-                                    <input class="form-control" type="text" id="example-text-input" name="brand">
+                                    <input class="form-control" type="text" id="example-text-input" name="brand" value="<?php echo $brand->getName(); ?>">
                                 </td>
                                 <td>
-                                    <input type="submit" value="Update" class="btn btn-primary col-sm-12 col-form-label">
+                                    <?php if(Brand::$edit_state==false): ?>
+                                        <input type="submit" value="Create" name="create" class="btn btn-primary col-sm-12 col-form-label">
+                                    <?php else: ?>
+                                        <input type="submit" value="Update"  name="update" class="btn btn-primary col-sm-12 col-form-label">
+                                    <?php endif;?>
                                 </td>
 
 
@@ -65,26 +80,26 @@
 
                     <table >
                         <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th colspan="2">Action</th>
-                            </tr>
+                        <tr>
+                            <th>Name</th>
+                            <th colspan="2">Action</th>
+                        </tr>
 
 
 
                         </thead>
                         <tbody>
-                            <?php $b = new Brand(); $b->read(); while ($row = mysqli_fetch_array($b->brands)){ ?>
+                        <?php $b = new Brand(); $b->read(); while ($row = mysqli_fetch_array($b->brands)){ ?>
                             <tr id="brandtr">
                                 <td><?php echo $row['name']; ?></td>
                                 <td>
-                                   <a href="#">Edit</a>
+                                    <a class="edit_btn" href="view_brand.php?edit=<?php echo $row['id']; ?>">Edit</a>
                                 </td>
                                 <td class="brandtd">
-                                    <a href="#">Delete</a>
+                                    <a class="del_btn" href="actions/create_new_brand.php?delete=<?php echo $row['id']; ?>">Delete</a>
                                 </td>
                             </tr>
-                            <?php } ?>
+                        <?php } ?>
                         </tbody>
 
                     </table>

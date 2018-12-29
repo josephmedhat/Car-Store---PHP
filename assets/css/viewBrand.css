@@ -17,3 +17,21 @@ th,td{
 #brandtr:hover{
     background: #f5f5f5;
 }
+
+.edit_btn{
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+.del_btn{
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #800000;
+    color: white;
+    border-radius: 3px;
+}
+.del_btn:hover{
+    color: grey;
+}
