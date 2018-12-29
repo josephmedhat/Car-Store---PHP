@@ -6,6 +6,8 @@
  * Time: 1:16 AM
  */
 require_once("../config.php");
+require_once("configration.php");
+
 
 class User
 {
@@ -37,10 +39,38 @@ class User
         $conn=new configration();
 
         $sql="INSERT INTO users (user_name, email, phone, password,is_admin) VALUES ('".$this->name."','".$this->email."', '".$this->phone."', '".$this->password."','".$this->is_admin."')";
-        if ($conn->query($sql))
+        if ($conn->conn->query($sql))
             return true;
         else
             return false;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function login(){
+        $conn = new configration();
+
+        $sql = "SELECT * FROM users where email = '".$this->email."' AND password = '".$this->password."' limit 1";
+
+        $result=$conn->conn->query($sql);
+
+        if($result){
+            if ($result->num_rows==1){
+
+                return true;
+            }else{
+                return false;
+            }
+
+        }else{
+            return false;
+        }
     }
 
 }

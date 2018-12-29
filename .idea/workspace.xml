@@ -2,14 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9051889f-c7a9-46ec-a552-1412f4c69e31" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/create_new_brand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/create_new_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/login_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/viewBrand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/din.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/din.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/din.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/din.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/AjaxLoader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/grabbing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/owl-carousel/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slitslider/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slitslider/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slitslider/js/jquery.ba-cond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slitslider/js/jquery.slitslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slitslider/js/modernizr.custom.79639.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/advertisements.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/agents/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/agents/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/agents/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/agents/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bginside.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bgmain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/properties/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/properties/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/properties/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/properties/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/properties/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slider/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slider/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slider/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-carousel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-images.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view_brand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/create_new_brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/create_new_brand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/create_new_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/create_new_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/viewBrand.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/viewBrand.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/create_new_car.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/create_new_car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/plugins/sweet-alert2/sweetalert2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/sweet-alert2/sweetalert2.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Brand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_brand.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_brand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/configration.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/configration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/leftbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/leftbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_car.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages-register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +86,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="leftbar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leftbar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/leftbar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
@@ -33,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/new_car.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
-              <caret line="61" column="85" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="61" selection-end-column="85" />
+              <caret line="61" column="85" selection-start-line="59" selection-start-column="55" selection-end-line="61" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -47,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Brand.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Brand.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/Brand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="95">
+              <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -69,6 +135,9 @@
     <findStrings>
       <find>icons</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,17 +194,6 @@
               <item name="Vertical" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Vertical" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vertical" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vertical" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vertical" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -182,7 +240,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11533000" />
+    <option name="totallyTimeSpent" value="11842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -194,7 +252,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.37128714" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -470,7 +528,7 @@
     <entry file="file://$PROJECT_DIR$/new_car.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="61" column="85" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="61" selection-end-column="85" />
+          <caret line="61" column="85" selection-start-line="59" selection-start-column="55" selection-end-line="61" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -495,17 +553,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/leftbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Brand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
         </state>
       </provider>
     </entry>
