@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * Created by PhpStorm.
  * User: bavlyadel
@@ -11,6 +12,7 @@ require_once ("../classes/User.php");
 $user = new User($_POST['username'],md5($_POST['password']),$_POST['email'],$_POST['phone'],0);
 
 if ($user->save()){
+    $_SESSION['success']="Your account created successfully";
     header('Location: '.'../pages-login.php');
     die();
 }

@@ -31,10 +31,6 @@
                          ================== -->
 
                     <div class="page-content-wrapper">
-<?php
-if (isset($_SESSION['user_name']))
-    echo "<h1>Welcome  ".$_SESSION['user_name']."</h1>";
-?>
     <div class="col-lg-12">
         <div class="card m-b-20">
             <div class="card-body">
@@ -43,15 +39,15 @@ if (isset($_SESSION['user_name']))
 
 
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img class="d-block img-fluid" src="assets/images/1_CarCovers.jpg" alt="First slide">
+                    <div class="carousel-inner" role="listbox" style="height: 350px">
+                        <div class="carousel-item active" style="width: 100%;height: 100%">
+                            <img class="d-block img-fluid" style="width:100%;height:100%" src="assets/images/1_CarCovers.jpg" alt="First slide">
                         </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="assets/images/Car-Cover2.jpg" alt="Second slide">
+                        <div class="carousel-item" style="width: 100%;height: 100%">
+                            <img class="d-block img-fluid" style="width:100%;height:100%" src="assets/images/Car-Cover2.jpg" alt="Second slide">
                         </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="assets/images/Cars,%20Cover,%20Pics,%20Timeline,%20Modified,%20Car,%20Fb,%20Cover,%20Racing.jpg" alt="Third slide">
+                        <div class="carousel-item" style="width: 100%;height: 100%">
+                            <img class="d-block img-fluid" style="width:100%;height:100%" src="assets/images/Cars,%20Cover,%20Pics,%20Timeline,%20Modified,%20Car,%20Fb,%20Cover,%20Racing.jpg" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

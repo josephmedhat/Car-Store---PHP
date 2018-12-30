@@ -1,3 +1,4 @@
+<?php session_start();?>
 <?php include_once('includes/header_account.php'); ?>
 
         <!-- Begin page -->
@@ -11,11 +12,29 @@
                         <h4 class="text-muted font-18 m-b-5 text-center">Welcome Back !</h4>
                         <p class="text-muted text-center">Sign in to continue.</p>
 
-                        <form class="form-horizontal m-t-30" action="actions/login_user.php" method="post">
+                        <form class="form-horizontal m-t-30" action="actions/login_user.php" method="post" onsubmit="return validateForm()" name="loginForm">
+                            <?php
+                            if (isset($_SESSION['error'])) {
+                                ?>
+                                <p class="alert alert-danger"><?php echo $_SESSION['error'];
+                                unset($_SESSION['error']);
+                                ?></p>
+                            <?php
+                            }
+                            ?>
+                            <?php
+                            if (isset($_SESSION['success'])) {
+                                ?>
+                                <p class="alert alert-success"><?php echo $_SESSION['success'];
+                                                                    unset($_SESSION['success']);
 
+                                    ?></p>
+                                <?php
+                            }
+                            ?>
                             <div class="form-group">
                                 <label for="useremail">Email</label>
-                                <input type="text" class="form-control" id="useremail" placeholder="Enter email" name="useremail">
+                                <input type="email" class="form-control" id="useremail" placeholder="Enter email" name="useremail">
                             </div>
 
                             <div class="form-group">
@@ -42,3 +61,18 @@
         </div>
 
 <?php include_once('includes/footer_account.php'); ?>
+<script>
+    function validateForm() {
+        var x = document.forms["loginForm"]["useremail"].value;
+        var y = document.forms["loginForm"]["password"].value;
+        if (x == "") {
+            alert("email must be filled");
+            return false;
+        }
+        if (y == "") {
+            alert("password must be filled");
+            return false;
+        }
+    }
+
+</script>

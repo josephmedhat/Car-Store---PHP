@@ -1,6 +1,6 @@
                 
                 <footer class="footer">
-                    © 2018 FCI - Created with Joseph Medhat & Bavly Adel.
+                    © 2018 FCI - Created BY Joseph Medhat & Bavly Adel.
                 </footer>
 
             </div>

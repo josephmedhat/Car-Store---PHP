@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * Created by PhpStorm.
  * User: bavlyadel
@@ -14,6 +15,9 @@ if($user->login()){
     header('Location: '.'../index.php');
     die();
 }else{
+
+    header('Location: '.'../pages-login.php');
+$_SESSION['error']="Wrong Credentials";
     echo " something wrong";
 }
 
