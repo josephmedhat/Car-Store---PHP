@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9051889f-c7a9-46ec-a552-1412f4c69e31" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/logout_user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/1_CarCovers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/1a_mclaren_p11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/8198.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Car-Cover2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Cars, Cover, Pics, Timeline, Modified, Car, Fb, Cover, Racing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/dwburnett-demon-garlits-1352-1517591562.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/race-car-309123_960_720.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readmore.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/create_new_car.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/create_new_car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/create_new_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/create_new_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Brand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header_start.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header_start.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/leftbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/leftbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/topbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/topbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_car.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages-login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages-recoverpw.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages-register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-images.php" beforeDir="false" afterPath="$PROJECT_DIR$/ui-images.php" afterDir="false" />
-    </list>
+    <list default="true" id="9051889f-c7a9-46ec-a552-1412f4c69e31" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +20,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages-register.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pages-register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages-register.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configration.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/configration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -198,15 +181,16 @@
       <option name="presentableId" value="Default" />
       <updated>1545685152874</updated>
       <workItem from="1545685154612" duration="11494000" />
-      <workItem from="1546096202659" duration="11063000" />
+      <workItem from="1546096202659" duration="12276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34893000" />
+    <option name="totallyTimeSpent" value="36106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50378215" side_tool="true" visible="true" weight="0.32838285" />
@@ -351,13 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="30" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/configration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -519,7 +496,14 @@
     <entry file="file://$PROJECT_DIR$/pages-register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/configration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

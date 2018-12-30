@@ -8,10 +8,10 @@
 
 class configration
 {
-    private $servername = "localhost";
-    private $username = "root";
-    private $password = "";
-    private $database = "it";
+    private $servername = "sql2.freemysqlhosting.net";
+    private $username = "sql2272022";
+    private $password = "aA4!qW4*";
+    private $database = "sql2272022";
 
 
 // Create connection
